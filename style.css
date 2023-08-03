@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 95vh;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+}
+.icon{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-block: px;
+}
+.icon-list{
+    width: 50%;
+    height: auto;
+    display:flex ;
+    align-items: center;
+    justify-content: end;
+    padding-inline: 90px;
+    gap: 20px;
+list-style: none;
+}
+.icon-list button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.icon i{
+    font-size:25px;
+    
+}
+.navbar2{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navbar2 button{
+    width: 130px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(151, 145, 145);
+background: transparent;
+}
+.navbar2 i{
+font-size: 25px;
+}
+/* section3 */
+.section3{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    display: flex;
+}
+.section3-part1{
+    width: 70%;
+    height: auto;
+    padding-inline: 90px;
+}
+.section3-part2{
+    width: 30%;
+    height: auto;
+}
+.section3-part1 h1{
+    font-size: 100px;
+}
+.section3-part2 p{
+    padding-top: 20px;
+}
+
+
+.section3-part2 button{
+    width: 140px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
+/* section4 */
+.section4{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    padding-inline: 40px;
+}
+.section4-part{
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    display: flex;
+}
+.section4-box1{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section4-box2{
+    width: 40%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    background-image: url(sun.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-inline: 30px;
+}
+.section4-box3{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+        .section4-box1 img{
+            width: 30px;
+            border-radius: 30px;
+        margin-top: 20px;
+        }
+        .section4-box1 p{
+            padding-top: 20px;
+        }
+        .section4-box1 span-1 button{
+            width: 70px;
+            height: 30px;
+            border-radius: 30px;
+            margin-top: 20px;
+            border: 1px solid grey;
+            background: transparent;
+        }
+.section4-box1 span-2 button{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid grey;
+            background: transparent;
+            margin-top: 3px;
+}
+.section4-box1 span-3 button{
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    background: transparent;
+    margin-top: 3px;
+}
+
+.section4-box2 button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    gap: 10px;
+margin-top: 20px;
+}
+.section4-box2 button i{
+    font-size: 18px;
+}
+.udana div{
+    width: 100%;
+    height: auto;
+display: flex; 
+    padding-top: 310px;
+    color: white;
+    font-size: 20px;
+}
+.udana button {
+    width: 290px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    right: 50px;
+}
+.udana button p{
+    font-size: 15px;
+}
+.section4-box3 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    padding-top: 40px;
+}
+.section4-box3 span-4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+.section4-box3 button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background: transparent;
+}
+.section4-box3 img{
+    width: 90%;
+    height: 200px;
+}
+
+
+
+
+
+/* @media(max-width:768px) */
+/* responsive */
+@media(max-width:768px) {
+
+.container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.icon ul{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.icon li{
+    display: none;}
+  
+.icon-list {
+    width: 100%;
+    height: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+padding-top: 10px;
+}
+
+.section3{
+    width: 100%;
+    height: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.section3-part1{
+    width: 100%;
+    height: auto;
+    display: flex;
+justify-content: center;
+align-items: center; 
+} 
+.section3-part2{
+    display: none;
+}
+.section3-part1 h1{
+    font-size: 50px;
+}
+.section3-part1 h1 br{
+display: none;
+}
+.section4{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+.section4-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.section4-box1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4-box2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4-box3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4-box2 div-7{
+    display: none;
+
+}
+.udana div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
